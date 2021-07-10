@@ -1,0 +1,5 @@
+module AVCodec [system] {
+  umbrella header "shim.h"
+  link "avcodec"
+  export *
+}
