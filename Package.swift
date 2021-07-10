@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "AVCodec",
+    products: [
+        .library(name: "AVCodec", targets: ["AVCodec"])
+    ],
     targets: [
         .systemLibrary(name: "AVCodec", pkgConfig: "libavcodec", providers: [
             .brew(["ffmpeg"])
