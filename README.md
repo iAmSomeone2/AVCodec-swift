@@ -1,3 +1,3 @@
-# FFmpeg
+# AVCodec - Swift
 
-A description of this package.
+Swift module wrapper for the AVCodec C library
